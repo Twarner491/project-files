@@ -1,14 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "..\\..\\Project-Documentation-Site"
+			"path": "..\\Twarner491"
 		},
 		{
-			"path": "..\\..\\Twarner491"
+			"path": "..\\Project-Documentation-Site"
 		},
 		{
-			"path": "..\\..\\project-files"
+			"path": "."
 		}
-	],
-	"settings": {}
+	]
 }
