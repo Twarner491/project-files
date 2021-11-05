@@ -422,49 +422,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;Name</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;Value</text>
 </package>
-<package name="R1206">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
-<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
-<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-<package name="R1206W">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-wave soldering</description>
-<wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="51"/>
-<wire x1="-0.913" y1="-0.8" x2="0.888" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-1.499" y="0" dx="1.8" dy="1.2" layer="1"/>
-<smd name="2" x="1.499" y="0" dx="1.8" dy="1.2" layer="1"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-0.8763" x2="-0.9009" y2="0.8738" layer="51"/>
-<rectangle x1="0.889" y1="-0.8763" x2="1.6391" y2="0.8738" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-<package name="R1206FAB">
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.127" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.127" layer="21"/>
-<smd name="1" x="-1.651" y="0" dx="1.27" dy="1.905" layer="1"/>
-<smd name="2" x="1.651" y="0" dx="1.27" dy="1.905" layer="1"/>
-<text x="-1.778" y="1.27" size="1.016" layer="25" ratio="15">&gt;NAME</text>
-<text x="-1.778" y="-2.286" size="1.016" layer="27" ratio="15">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -480,21 +437,6 @@ wave soldering</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="95">&gt;Value</text>
 <pin name="KATHODE" x="-2.54" y="0" visible="off" length="point"/>
 <pin name="ANODE" x="2.54" y="0" visible="off" length="point" rot="R180"/>
-</symbol>
-<symbol name="R-US">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -514,43 +456,6 @@ wave soldering</description>
 <connects>
 <connect gate="G$1" pin="ANODE" pad="ANODE"/>
 <connect gate="G$1" pin="KATHODE" pad="KATHODE"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="R" prefix="R" uservalue="yes">
-<description>&lt;b&gt;Resistor (US Symbol)&lt;/b&gt;
-&lt;p&gt;
-Variants with postfix FAB are widened to allow the routing of internal traces</description>
-<gates>
-<gate name="G$1" symbol="R-US" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1206" package="R1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206W" package="R1206W">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206FAB" package="R1206FAB">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -899,7 +804,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D1" library="eagle_fab" deviceset="DIODE_SCHOTTKY_CDBM1100-G" device="" value="SCHOTTKY"/>
 <part name="J2" library="Headers" library_urn="urn:adsk.eagle:library:11687645" deviceset="61300511121" device="" package3d_urn="urn:adsk.eagle:package:11390687/2"/>
 <part name="S1" library="SparkFun-Switches" deviceset="SWITCH-DPDT" device="-SMD-AYZ0202"/>
-<part name="R1" library="eagle_fab" deviceset="R" device="1206FAB" value="1.5k"/>
 <part name="U$1" library="fab_new" deviceset="CONN_06_FTDI-SMD-HEADER" device=""/>
 </parts>
 <sheets>
@@ -922,10 +826,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="S1" gate="G$1" x="48.26" y="45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="48.26" y="37.846" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="48.26" y="56.134" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
-</instance>
-<instance part="R1" gate="G$1" x="33.02" y="40.64" smashed="yes">
-<attribute name="NAME" x="29.21" y="42.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="29.21" y="37.338" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="20.32" y="25.4" smashed="yes" rot="R270"/>
 </instances>
@@ -953,13 +853,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="22.86" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="S1" gate="G$1" pin="3"/>
-<wire x1="43.18" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="RX" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="4"/>
@@ -984,9 +877,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="D1" gate="G$1" pin="KATHODE"/>
 <wire x1="27.94" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="S1" gate="G$1" pin="3"/>
+<wire x1="25.4" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
