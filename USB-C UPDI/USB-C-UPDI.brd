@@ -1231,48 +1231,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="N$47">
 <via x="13.5134" y="6.0412" extent="1-16" drill="0.85" diameter="1.8"/>
 </signal>
-<signal name="N$33">
-<wire x1="16.0864" y1="6.2482" x2="15.3264" y2="6.2482" width="0.32" layer="16"/>
-<wire x1="15.3264" y1="6.2482" x2="15.1064" y2="6.5182" width="0.32" layer="16" curve="-101.65306"/>
-</signal>
-<signal name="N$34">
-<wire x1="16.1064" y1="6.7882" x2="15.3164" y2="6.7882" width="0.32" layer="16"/>
-<wire x1="15.3164" y1="6.7882" x2="15.1064" y2="6.5082" width="0.32" layer="16" curve="106.260205"/>
-</signal>
-<signal name="N$35">
-<wire x1="15.0764" y1="7.5382" x2="16.0664" y2="7.5382" width="0.32" layer="16"/>
-<wire x1="16.0664" y1="7.5382" x2="16.0764" y2="7.5382" width="0.32" layer="16"/>
-<wire x1="16.0664" y1="7.5382" x2="16.0664" y2="7.7882" width="0.32" layer="16"/>
-<wire x1="16.0664" y1="7.7882" x2="15.9364" y2="8.0182" width="0.32" layer="16" curve="58.951602"/>
-<wire x1="15.9364" y1="8.0182" x2="15.7264" y2="8.0582" width="0.32" layer="16" curve="40.526927"/>
-<wire x1="15.7264" y1="8.0582" x2="15.5564" y2="7.8882" width="0.32" layer="16" curve="71.042633"/>
-<wire x1="15.5564" y1="7.8882" x2="15.5464" y2="7.5782" width="0.32" layer="16" curve="15.26215"/>
-</signal>
-<signal name="N$36">
-<wire x1="16.0764" y1="8.6782" x2="16.0764" y2="8.6582" width="0.32" layer="16"/>
-<wire x1="16.0764" y1="8.6582" x2="15.1064" y2="8.6582" width="0.32" layer="16"/>
-</signal>
-<signal name="N$37">
-<wire x1="16.0664" y1="8.6682" x2="16.0664" y2="8.9182" width="0.32" layer="16"/>
-<wire x1="16.0664" y1="8.9182" x2="16.0064" y2="9.0882" width="0.32" layer="16" curve="38.879931"/>
-<wire x1="16.0064" y1="9.0882" x2="15.8464" y2="9.1882" width="0.32" layer="16" curve="38.228511"/>
-</signal>
-<signal name="N$38">
-<wire x1="15.0864" y1="8.6482" x2="15.0864" y2="8.8882" width="0.32" layer="16"/>
-<wire x1="15.0864" y1="8.8882" x2="15.1564" y2="9.0882" width="0.32" layer="16" curve="-38.579943"/>
-<wire x1="15.1564" y1="9.0882" x2="15.3064" y2="9.1882" width="0.32" layer="16" curve="-35.459278"/>
-<wire x1="15.3064" y1="9.1882" x2="15.8564" y2="9.1882" width="0.32" layer="16" curve="-31.920892"/>
-</signal>
-<signal name="N$39">
-<wire x1="16.0764" y1="9.9182" x2="15.0964" y2="9.9182" width="0.32" layer="16"/>
-<wire x1="15.0964" y1="9.9182" x2="15.0964" y2="9.9082" width="0.32" layer="16"/>
-</signal>
-<signal name="N$40">
-<wire x1="15.0964" y1="10.0182" x2="15.0964" y2="9.8082" width="0.3" layer="16"/>
-</signal>
-<signal name="N$41">
-<wire x1="16.0764" y1="10.0082" x2="16.0764" y2="9.7982" width="0.3" layer="16"/>
-</signal>
 <signal name="N$24">
 <wire x1="25.7364" y1="8.5882" x2="25.7364" y2="8.5982" width="0.32" layer="16"/>
 </signal>
@@ -2140,6 +2098,48 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="27.6352" y1="18.034" x2="28.2702" y2="17.653" width="0.3048" layer="16"/>
 <wire x1="28.2702" y1="17.653" x2="28.8798" y2="17.5768" width="0.3048" layer="16"/>
 <wire x1="28.8798" y1="17.5768" x2="29.5656" y2="17.6784" width="0.3048" layer="16"/>
+</signal>
+<signal name="N$33">
+<wire x1="15.8324" y1="6.2736" x2="15.0724" y2="6.2736" width="0.32" layer="16"/>
+<wire x1="15.0724" y1="6.2736" x2="14.8524" y2="6.5436" width="0.32" layer="16" curve="-101.65306"/>
+</signal>
+<signal name="N$34">
+<wire x1="15.8524" y1="6.8136" x2="15.0624" y2="6.8136" width="0.32" layer="16"/>
+<wire x1="15.0624" y1="6.8136" x2="14.8524" y2="6.5336" width="0.32" layer="16" curve="106.260205"/>
+</signal>
+<signal name="N$35">
+<wire x1="14.8224" y1="7.5636" x2="15.8124" y2="7.5636" width="0.32" layer="16"/>
+<wire x1="15.8124" y1="7.5636" x2="15.8224" y2="7.5636" width="0.32" layer="16"/>
+<wire x1="15.8124" y1="7.5636" x2="15.8124" y2="7.8136" width="0.32" layer="16"/>
+<wire x1="15.8124" y1="7.8136" x2="15.6824" y2="8.0436" width="0.32" layer="16" curve="58.951602"/>
+<wire x1="15.6824" y1="8.0436" x2="15.4724" y2="8.0836" width="0.32" layer="16" curve="40.526927"/>
+<wire x1="15.4724" y1="8.0836" x2="15.3024" y2="7.9136" width="0.32" layer="16" curve="71.042633"/>
+<wire x1="15.3024" y1="7.9136" x2="15.2924" y2="7.6036" width="0.32" layer="16" curve="15.26215"/>
+</signal>
+<signal name="N$36">
+<wire x1="15.8224" y1="8.7036" x2="15.8224" y2="8.6836" width="0.32" layer="16"/>
+<wire x1="15.8224" y1="8.6836" x2="14.8524" y2="8.6836" width="0.32" layer="16"/>
+</signal>
+<signal name="N$37">
+<wire x1="15.8124" y1="8.6936" x2="15.8124" y2="8.9436" width="0.32" layer="16"/>
+<wire x1="15.8124" y1="8.9436" x2="15.7524" y2="9.1136" width="0.32" layer="16" curve="38.879931"/>
+<wire x1="15.7524" y1="9.1136" x2="15.5924" y2="9.2136" width="0.32" layer="16" curve="38.228511"/>
+</signal>
+<signal name="N$38">
+<wire x1="14.8324" y1="8.6736" x2="14.8324" y2="8.9136" width="0.32" layer="16"/>
+<wire x1="14.8324" y1="8.9136" x2="14.9024" y2="9.1136" width="0.32" layer="16" curve="-38.579943"/>
+<wire x1="14.9024" y1="9.1136" x2="15.0524" y2="9.2136" width="0.32" layer="16" curve="-35.459278"/>
+<wire x1="15.0524" y1="9.2136" x2="15.6024" y2="9.2136" width="0.32" layer="16" curve="-31.920892"/>
+</signal>
+<signal name="N$39">
+<wire x1="15.8224" y1="9.9436" x2="14.8424" y2="9.9436" width="0.32" layer="16"/>
+<wire x1="14.8424" y1="9.9436" x2="14.8424" y2="9.9336" width="0.32" layer="16"/>
+</signal>
+<signal name="N$40">
+<wire x1="14.8424" y1="10.0436" x2="14.8424" y2="9.8336" width="0.3" layer="16"/>
+</signal>
+<signal name="N$41">
+<wire x1="15.8224" y1="10.0336" x2="15.8224" y2="9.8236" width="0.3" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
