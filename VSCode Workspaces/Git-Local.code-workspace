@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../project-repos/CNCmillingWorkflows"
+		},
+		{
+			"path": "../../project-repos/ContunityTestingRig"
+		},
+		{
+			"path": "../../project-repos/FTDI2UPDI"
+		},
+		{
+			"path": "../../project-repos/ParametricBottleCapGenerator"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../project-repos/USB-C-UPDI"
+		},
+		{
+			"path": "../../project-repos/VonNiemannProbe"
+		}
+	]
+}
